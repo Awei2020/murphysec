@@ -9,7 +9,7 @@ jobs:
         uses: snyk/actions/golang@master
         continue-on-error: true # To make sure that SARIF upload gets called
         env:
-          SNYK_TOKEN: d63d202a-df20-4f18-b94a-6c498319dc45
+          SNYK_TOKEN: 4ba4f23d-063f-4e34-a4cc-3b58013f5b6a
         with:
           args: --sarif-file-output=snyk.sarif
       - name: cat
